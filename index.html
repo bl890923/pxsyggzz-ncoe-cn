@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>沛县广告公司_沛县标识标牌_沛县宣传栏_沛县发光字_沛县工地标准化_沛县楼顶大字_沛县门头招牌_沛县文化墙_沛县广告设计_沛县广告制作_沛县广告安装 - 沛县苏艺广告有限公司</title>
+    <meta name="keywords" content="沛县广告公司,沛县标识标牌,沛县宣传栏,沛县发光字,沛县工地标准化,沛县楼顶大字,沛县门头招牌,沛县文化墙,沛县广告设计,沛县广告制作,沛县广告安装">
+    <meta name="description" content="沛县苏艺广告有限公司是沛县专业的广告设计与制作公司，提供标识标牌、宣传栏、发光字、工地标准化、楼顶大字、门头招牌、文化墙等全方位广告服务。">
+    <style>
+        :root {
+            --primary-color: #00b4db;
+            --secondary-color: #0083b0;
+            --accent-color: #005f8a;
+            --light-color: #f8f9fa;
+            --dark-color: #343a40;
+            --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Microsoft YaHei', sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        
+        /* 头部样式 */
+        header {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            color: white;
+            padding: 1rem 0;
+            box-shadow: var(--shadow);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo h1 {
+            font-size: 1.8rem;
+            margin-bottom: 0.2rem;
+        }
+        
+        .logo p {
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+        
+        .contact-info {
+            text-align: right;
+        }
+        
+        .contact-info p {
+            margin-bottom: 0.3rem;
+        }
+        
+        .phone {
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        
+        /* 导航样式 */
+        nav {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            margin-top: 1rem;
+        }
+        
+        .nav-links {
+            display: flex;
+            list-style: none;
+            justify-content: center;
+        }
+        
+        .nav-links li {
+            margin: 0 1rem;
+        }
+        
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            padding: 0.8rem 0;
+            display: block;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+        
+        .nav-links a:hover {
+            color: #e0f7ff;
+        }
+        
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: #e0f7ff;
+            transition: width 0.3s ease;
+        }
+        
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+        
+        /* Banner样式 */
+        .banner {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            color: white;
+            padding: 3rem 0;
+            text-align: center;
+            margin-bottom: 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .banner::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('http://img8.dfco.cn/pxsygg/lddz-01.jpg');
+            background-size: cover;
+        }
+        
+        .banner-content {
+            position: relative;
+            z-index: 1;
+        }
+        
+        .banner h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        
+        .banner p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto;
+            opacity: 0.9;
+        }
+        
+        /* 主要内容区域 */
+        main {
+            padding: 3rem 0;
+        }
+        
+        section {
+            margin-bottom: 3rem;
+            background: white;
+            border-radius: 10px;
+            box-shadow: var(--shadow);
+            overflow: hidden;
+        }
+        
+        .section-header {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+        }
+        
+        .section-header h2 {
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .section-content {
+            padding: 2rem;
+        }
+        
+        /* 公司简介样式 */
+        .intro-text {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            text-align: justify;
+        }
+        
+        .intro-text p {
+            margin-bottom: 1.5rem;
+        }
+        
+        /* 产品展示样式 */
+        .category {
+            margin-bottom: 2.5rem;
+        }
+        
+        .category h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--accent-color);
+            border-left: 4px solid var(--primary-color);
+            padding-left: 1rem;
+        }
+        
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+        
+        .gallery-item {
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .gallery-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }
+        
+        .gallery-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            display: block;
+            transition: transform 0.5s ease;
+        }
+        
+        .gallery-item:hover img {
+            transform: scale(1.05);
+        }
+        
+        /* 联系信息样式 */
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        
+        .contact-item {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+        }
+        
+        .contact-item h3 {
+            color: var(--accent-color);
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+        }
+        
+        .contact-item h3 i {
+            margin-right: 0.5rem;
+            color: var(--primary-color);
+        }
+        
+        /* 页脚样式 */
+        footer {
+            background: var(--dark-color);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        
+        .footer-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .footer-logo {
+            margin-bottom: 1rem;
+        }
+        
+        .copyright {
+            margin-top: 1rem;
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+        
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .contact-info {
+                text-align: center;
+                margin-top: 1rem;
+            }
+            
+            .nav-links {
+                flex-wrap: wrap;
+            }
+            
+            .nav-links li {
+                margin: 0.5rem;
+            }
+            
+            .gallery {
+                grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            }
+            
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .banner h2 {
+                font-size: 2rem;
+            }
+            
+            .banner p {
+                font-size: 1rem;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .gallery {
+                grid-template-columns: 1fr;
+            }
+            
+            .section-content {
+                padding: 1.5rem;
+            }
+            
+            .banner {
+                padding: 2rem 0;
+            }
+            
+            .banner h2 {
+                font-size: 1.8rem;
+            }
+        }
+        
+        /* 窄屏时隐藏联系方式 */
+        @media (max-width: 600px) {
+            .contact-info {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 头部 -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>苏艺广告</h1>
+                    <p>沛县苏艺广告有限公司</p>
+                </div>
+                <div class="contact-info">
+                    <p class="phone">18952151583 / 18952228500</p>
+                    <p>徐州市沛县南环路领创国际广场 D27</p>
+                </div>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="/">网站首页</a></li>
+                    <li><a href="#intro">公司简介</a></li>
+                    <li><a href="#products">产品展示</a></li>
+                    <li><a href="#contact">联系我们</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Banner -->
+    <div class="banner">
+        <div class="container">
+            <div class="banner-content">
+                <h2>专业广告设计与制作</h2>
+                <p>沛县苏艺广告有限公司 - 为您提供全方位广告解决方案，打造卓越品牌形象</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 主要内容 -->
+    <main class="container">
+        <!-- 公司简介 -->
+        <section id="intro">
+            <div class="section-header">
+                <h2>公司简介</h2>
+            </div>
+            <div class="section-content">
+                <div class="intro-text">
+                    <p>沛县苏艺广告有限公司成立于沛县本地，是一家集广告设计、制作、安装于一体的综合性广告服务企业。公司自创立以来，始终秉承"专业、创新、诚信、高效"的服务理念，致力于为沛县及周边地区的企事业单位、商业客户提供全方位、高品质的广告解决方案。</p>
+                    
+                    <p>公司拥有专业的设计团队和先进的生产设备，在标识标牌、宣传栏、发光字、工地标准化、楼顶大字、门头招牌、文化墙等领域积累了丰富的经验。我们的设计团队紧跟时代潮流，结合客户需求与品牌特色，创作出既美观又实用的广告作品；制作团队则凭借精湛的工艺和严格的质量控制，确保每一件产品都达到行业领先水平。</p>
+                    
+                    <p>在标识标牌领域，我们为政府机关、企事业单位、学校、医院等提供系统化的标识解决方案，包括导向标识、形象标识、安全标识等，既满足功能性需求，又提升环境美感。在宣传栏制作方面，我们采用优质材料和先进工艺，确保产品耐用美观，成为信息传播和文化展示的重要载体。</p>
+                    
+                    <p>发光字和楼顶大字是我们的特色业务之一，无论是商场、酒店、企业大楼还是商业街区，我们都能提供醒目、大气的立体字解决方案，帮助客户在夜间也能获得良好的品牌曝光。门头招牌业务则专注于为各类商户打造独具特色的店面形象，提升商业价值。</p>
+                    
+                    <p>在工地标准化领域，我们严格按照相关规范，为建筑工地提供围挡广告、安全标识、工程概况牌等全套标准化解决方案，既保障施工安全，又展示企业形象。文化墙设计则融合艺术性与功能性，通过创意设计和精湛工艺，将企业文化、核心价值观生动呈现。</p>
+                    
+                    <p>沛县苏艺广告有限公司始终坚持以客户为中心，以质量求生存，以创新求发展。我们深知，在竞争激烈的广告行业，只有不断超越客户期望，才能赢得长久信任。未来，我们将继续引进先进技术，提升服务水平，为沛县的城市美化、商业繁荣贡献更多力量，成为沛县地区最值得信赖的广告合作伙伴。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 产品展示 -->
+        <section id="products">
+            <div class="section-header">
+                <h2>产品展示</h2>
+            </div>
+            <div class="section-content">
+                <!-- 标识标牌宣传栏 -->
+                <div class="category">
+                    <h3>标识标牌宣传栏</h3>
+                    <div class="gallery" id="bsbpxcl-gallery">
+                        <!-- 图片将通过JS动态加载 -->
+                    </div>
+                </div>
+                
+                <!-- 发光字 -->
+                <div class="category">
+                    <h3>发光字</h3>
+                    <div class="gallery" id="fgz-gallery">
+                        <!-- 图片将通过JS动态加载 -->
+                    </div>
+                </div>
+                
+                <!-- 工地标准化 -->
+                <div class="category">
+                    <h3>工地标准化</h3>
+                    <div class="gallery" id="gdbzh-gallery">
+                        <!-- 图片将通过JS动态加载 -->
+                    </div>
+                </div>
+                
+                <!-- 楼顶大字 -->
+                <div class="category">
+                    <h3>楼顶大字</h3>
+                    <div class="gallery" id="lddz-gallery">
+                        <!-- 图片将通过JS动态加载 -->
+                    </div>
+                </div>
+                
+                <!-- 门头招牌 -->
+                <div class="category">
+                    <h3>门头招牌</h3>
+                    <div class="gallery" id="mtzp-gallery">
+                        <!-- 图片将通过JS动态加载 -->
+                    </div>
+                </div>
+                
+                <!-- 文化墙 -->
+                <div class="category">
+                    <h3>文化墙</h3>
+                    <div class="gallery" id="whq-gallery">
+                        <!-- 图片将通过JS动态加载 -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 联系我们 -->
+        <section id="contact">
+            <div class="section-header">
+                <h2>联系我们</h2>
+            </div>
+            <div class="section-content">
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <h3>联系电话</h3>
+                        <p>18952151583</p>
+                        <p>18952228500</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>公司地址</h3>
+                        <p>徐州市沛县南环路领创国际广场 D27</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>业务范围</h3>
+                        <p>标识标牌、宣传栏、发光字、工地标准化、楼顶大字、门头招牌、文化墙等广告设计制作</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>苏艺广告</h2>
+                    <p>沛县苏艺广告有限公司</p>
+                </div>
+                <p>专业广告设计与制作 - 打造卓越品牌形象</p>
+                <p class="copyright">© 2023 沛县苏艺广告有限公司 版权所有</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // 图片数据
+        const imageData = {
+            "bsbpxcl": [
+                "http://img8.dfco.cn/pxsygg/bsbpxcl-01.jpg",
+                "http://img8.dfco.cn/pxsygg/bsbpxcl-02.jpg",
+                "http://img8.dfco.cn/pxsygg/bsbpxcl-03.jpg",
+                "http://img8.dfco.cn/pxsygg/bsbpxcl-04.jpg",
+                "http://img8.dfco.cn/pxsygg/bsbpxcl-05.jpg",
+                "http://img8.dfco.cn/pxsygg/bsbpxcl-06.jpg",
+                "http://img8.dfco.cn/pxsygg/bsbpxcl-07.jpg",
+                "http://img8.dfco.cn/pxsygg/bsbpxcl-08.jpg",
+                "http://img8.dfco.cn/pxsygg/bsbpxcl-09.jpg",
+                "http://img8.dfco.cn/pxsygg/bsbpxcl-10.jpg",
+                "http://img8.dfco.cn/pxsygg/bsbpxcl-11.jpg",
+                "http://img8.dfco.cn/pxsygg/bsbpxcl-12.jpg",
+                "http://img8.dfco.cn/pxsygg/bsbpxcl-13.jpg",
+                "http://img8.dfco.cn/pxsygg/bsbpxcl-14.jpg",
+                "http://img8.dfco.cn/pxsygg/bsbpxcl-15.jpg",
+                "http://img8.dfco.cn/pxsygg/bsbpxcl-16.jpg"
+            ],
+            "fgz": [
+                "http://img8.dfco.cn/pxsygg/fgz-01.jpg",
+                "http://img8.dfco.cn/pxsygg/fgz-02.jpg",
+                "http://img8.dfco.cn/pxsygg/fgz-03.jpg",
+                "http://img8.dfco.cn/pxsygg/fgz-04.jpg",
+                "http://img8.dfco.cn/pxsygg/fgz-05.jpg",
+                "http://img8.dfco.cn/pxsygg/fgz-06.jpg",
+                "http://img8.dfco.cn/pxsygg/fgz-07.jpg",
+                "http://img8.dfco.cn/pxsygg/fgz-08.jpg"
+            ],
+            "gdbzh": [
+                "http://img8.dfco.cn/pxsygg/gdbzh-01.jpg",
+                "http://img8.dfco.cn/pxsygg/gdbzh-02.jpg",
+                "http://img8.dfco.cn/pxsygg/gdbzh-03.jpg",
+                "http://img8.dfco.cn/pxsygg/gdbzh-04.jpg",
+                "http://img8.dfco.cn/pxsygg/gdbzh-05.jpg",
+                "http://img8.dfco.cn/pxsygg/gdbzh-06.jpg",
+                "http://img8.dfco.cn/pxsygg/gdbzh-07.jpg",
+                "http://img8.dfco.cn/pxsygg/gdbzh-08.jpg",
+                "http://img8.dfco.cn/pxsygg/gdbzh-09.jpg",
+                "http://img8.dfco.cn/pxsygg/gdbzh-10.jpg",
+                "http://img8.dfco.cn/pxsygg/gdbzh-11.jpg",
+                "http://img8.dfco.cn/pxsygg/gdbzh-12.jpg",
+                "http://img8.dfco.cn/pxsygg/gdbzh-13.jpg",
+                "http://img8.dfco.cn/pxsygg/gdbzh-14.jpg",
+                "http://img8.dfco.cn/pxsygg/gdbzh-15.jpg",
+                "http://img8.dfco.cn/pxsygg/gdbzh-16.jpg",
+                "http://img8.dfco.cn/pxsygg/gdbzh-17.jpg",
+                "http://img8.dfco.cn/pxsygg/gdbzh-18.jpg",
+                "http://img8.dfco.cn/pxsygg/gdbzh-19.jpg",
+                "http://img8.dfco.cn/pxsygg/gdbzh-20.jpg",
+                "http://img8.dfco.cn/pxsygg/gdbzh-21.jpg",
+                "http://img8.dfco.cn/pxsygg/gdbzh-22.jpg",
+                "http://img8.dfco.cn/pxsygg/gdbzh-23.jpg",
+                "http://img8.dfco.cn/pxsygg/gdbzh-24.jpg"
+            ],
+            "lddz": [
+                "http://img8.dfco.cn/pxsygg/lddz-01.jpg",
+                "http://img8.dfco.cn/pxsygg/lddz-02.jpg",
+                "http://img8.dfco.cn/pxsygg/lddz-03.jpg",
+                "http://img8.dfco.cn/pxsygg/lddz-04.jpg",
+                "http://img8.dfco.cn/pxsygg/lddz-05.jpg",
+                "http://img8.dfco.cn/pxsygg/lddz-06.jpg",
+                "http://img8.dfco.cn/pxsygg/lddz-07.jpg",
+                "http://img8.dfco.cn/pxsygg/lddz-08.jpg"
+            ],
+            "mtzp": [
+                "http://img8.dfco.cn/pxsygg/mtzp-01.jpg",
+                "http://img8.dfco.cn/pxsygg/mtzp-02.jpg",
+                "http://img8.dfco.cn/pxsygg/mtzp-03.jpg",
+                "http://img8.dfco.cn/pxsygg/mtzp-04.jpg",
+                "http://img8.dfco.cn/pxsygg/mtzp-05.jpg",
+                "http://img8.dfco.cn/pxsygg/mtzp-06.jpg",
+                "http://img8.dfco.cn/pxsygg/mtzp-07.jpg",
+                "http://img8.dfco.cn/pxsygg/mtzp-08.jpg",
+                "http://img8.dfco.cn/pxsygg/mtzp-09.jpg",
+                "http://img8.dfco.cn/pxsygg/mtzp-10.jpg"
+            ],
+            "whq": [
+                "http://img8.dfco.cn/pxsygg/whq-01.jpg",
+                "http://img8.dfco.cn/pxsygg/whq-02.jpg",
+                "http://img8.dfco.cn/pxsygg/whq-03.jpg",
+                "http://img8.dfco.cn/pxsygg/whq-04.jpg",
+                "http://img8.dfco.cn/pxsygg/whq-05.jpg",
+                "http://img8.dfco.cn/pxsygg/whq-06.jpg",
+                "http://img8.dfco.cn/pxsygg/whq-07.jpg",
+                "http://img8.dfco.cn/pxsygg/whq-08.jpg",
+                "http://img8.dfco.cn/pxsygg/whq-09.jpg",
+                "http://img8.dfco.cn/pxsygg/whq-10.jpg",
+                "http://img8.dfco.cn/pxsygg/whq-11.jpg",
+                "http://img8.dfco.cn/pxsygg/whq-12.jpg"
+            ]
+        };
+
+        // 加载图片到对应分类
+        document.addEventListener('DOMContentLoaded', function() {
+            for (const category in imageData) {
+                const gallery = document.getElementById(`${category}-gallery`);
+                if (gallery) {
+                    imageData[category].forEach(imgUrl => {
+                        const galleryItem = document.createElement('div');
+                        galleryItem.className = 'gallery-item';
+                        
+                        const img = document.createElement('img');
+                        img.src = imgUrl;
+                        img.alt = `${category} 作品`;
+                        
+                        galleryItem.appendChild(img);
+                        gallery.appendChild(galleryItem);
+                    });
+                }
+            }
+        });
+
+        // 平滑滚动导航
+        document.querySelectorAll('.nav-links a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                window.scrollTo({
+                    top: targetElement.offsetTop - 80,
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
